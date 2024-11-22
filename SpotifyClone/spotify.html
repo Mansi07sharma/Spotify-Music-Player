@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/spotifyLogo.jpg">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="nextPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>Spotify - Web Player : Music for everyone</title>
+</head>
+
+<body class="bg-black">
+    <div class="navbar ">
+        <nav class="flex justify-space">
+            <img class="invert" src="images/logo.svg" alt="logo">
+            <div class="search-music flex gap">
+                <img class="invert home border-radius" src="images/home.svg" alt="home">
+                <input type="text" class="searchbar border-radius" placeholder="What do you want to play?">
+            </div>
+            <div class="buttons flex justify-content items-content">
+                <button class="signup">Sign up</button>
+                <button class="login">Log in</button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container flex ">
+        <div class="leftbox  bg-grey1 ">
+            <div class="library">
+                <ul class="flex items-content gap">
+                    <li><img class="invert" width="25px" src="images/playlist.svg" alt="library">
+                    </li>
+                    <li>
+                        <h4 class="bold txt-color heading" width="100%">Your Library</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="side-option">
+                <div class="createplay bg-grey2">
+                    <h4 class="bold margin">Create your first playlist</h4>
+                    <h5 class="margin">It's easy, we'll help you</h5>
+                    <button class="margin playlist bold">Create playlist</button>
+                </div>
+                <div class="podcast bg-grey2">
+                    <h4 class="bold margin">Let's find some podcasts to follow</h4>
+                    <h5 class="margin">We'll keep you updated on new episodes</h5>
+                    <button class="margin playlist bold">Browse podcasts</button>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="info-links flex">
+                    <div class=" infos"><a class="txt-color" href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+                    <div class=" infos"><a class="txt-color"
+                            href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a></div>
+                    <div class=" infos"><a class="txt-color"
+                            href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                    <div class=" infos"><a class="txt-color"
+                            href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                    <div class=" infos"><a class="txt-color"
+                            href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div class=" infos"><a class="txt-color"
+                            href="https://www.spotify.com/in-en/accessibility/">Accessiblitity</a></div>
+                </div>
+                <div class="  infos "><a class="txt-color-white"
+                        href="https://www.spotify.com/legal/cookies-policy/">Cookies</a></div>
+                <button class="lang-button bold">English</button>
+            </div>
+        </div>
+
+        <div class="rightbox  bg-grey2 ">
+            <div class="popular-artist margin-all">
+                <div class="artists position-relative justify-space ">
+                    <h2 class="bold heading2 underline-link">Popular artists</h2>
+                    <h5 class="position-end bold underline-link">Show all</h5>
+                </div>
+                <div class="artist-cars flex gap margin-top">
+                    <div class="card card-width" artist="Pritam"> <img class="card-border-radius"
+                            src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Pritam</h4>
+                        <h5 class="txt-color">Artist</h5>
+                    </div>
+                    <div class="card card-width" artist="A.R.Rahman">
+                        <img class="card-border-radius"
+                            src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">A.R.Rahman</h4>
+                        <h5 class="txt-color">Artist</h5>
+                    </div>
+                    <div class="card card-width" artist="Sachin-Jigar"> <img class="card-border-radius"
+                            src="https://i.scdn.co/image/ab676161000051749107d8873f80a26b36f2418e" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Sachin-Jigar</h4>
+                        <h5 class="txt-color">Artist</h5>
+                    </div>
+                    <div class="card card-width" artist="Arijit Singh"> <img class="card-border-radius"
+                            src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Arijit Singh</h4>
+                        <h5 class="txt-color">Artist</h5>
+                    </div>
+                    <div class="card card-width" artist="Anirudh Ravichander"> <img class="card-border-radius"
+                            src="https://yt3.googleusercontent.com/nJe_SVpWolKRUUIZijG8Skci04VrgN9uBqEe4oVPKPiLnzCpar5qcwADpPJNNVOWoMeZA3M2RQ=s900-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Anirudh Ravichander</h4>
+                        <h5 class="txt-color">Artist</h5>
+                    </div>
+                    <div class="card card-width" artist="Atif Aslam"> <img class="card-border-radius"
+                            src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Atif Aslam</h4>
+                        <h5 class="txt-color">Artist</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-album margin-all">
+                <div class="artists position-relative justify-space">
+                    <h2 class="bold heading2 underline-link">Popular albums</h2>
+                    <h5 class="position-end bold underline-link">Show all</h5>
+                </div>
+                <div class="album-card flex gap margin-top">
+                    <div class="card card-width">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Glory</h4>
+                        <h5 class="txt-color">Yo Yo Honey Singh</h5>
+                    </div>
+                    <div class="card card-width"><img
+                            src="https://i.scdn.co/image/ab67616d0000b2736404721c1943d5069f0805f3" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Aashiqui 2</h4>
+                        <h5 class="txt-color">Mithoon,Ankit Tiwari,Jeet Gannguli</h5>
+                    </div>
+                    <div class="card card-width"><img
+                            src="https://i.scdn.co/image/ab67616d0000b2731e63de6489803c2b39e7f8e5" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Love hotel</h4>
+                        <h5 class="txt-color">loveovermax</h5>
+                    </div>
+                    <div class="card card-width"><img
+                            src="https://i.scdn.co/image/ab67616d0000b273b3c83a0d3204568b0535357c" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Aaj Ki Raat(From "Stree 2")</h4>
+                        <h5 class="txt-color">Sachin-Jigar, Amitabh Bhattacharya</h5>
+                    </div>
+                    <div class="card card-width"><img
+                            src="https://i.scdn.co/image/ab67616d0000b273bb25239324c4e16ae01fda36" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Making Memories</h4>
+                        <h5 class="txt-color">Karan Aujla,lkky</h5>
+                    </div>
+                    <div class="card card-width"><img
+                            src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="">
+                        <div class="play">
+                            <div class="play-button">
+                                <div class="play-icon"></div>
+                            </div>
+                        </div>
+                        <h4 class="font-size">Ye Jawaani Hai Deewani</h4>
+                        <h5 class="txt-color">Pritam</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-radio margin-all"></div>
+            <div class="featured-chart margin-all"></div>
+            <div class="spotify-playlist margin-all"></div>
+            <div class="footer-links"></div>
+        </div>
+    </div>
+
+    <footer class="footer flex justify-space items-content">
+        <div class="suggest">
+            <h5 class="bold">Preview of Spotify</h5>
+            <p>Sign up to get unlimited and podcasts with occasionals ads.No credit card needed.</p>
+        </div>
+        <button class="footer-sign">Sign up free</button>
+    </footer>
+    <script src="spotify.js"></script>
+</body>
+
+</html>

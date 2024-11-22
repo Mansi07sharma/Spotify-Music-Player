@@ -1,0 +1,119 @@
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.items-content {
+    align-items: center;
+}
+
+.border {
+    border: 2px solid rgb(194, 235, 11);
+}
+
+.justify-space {
+    justify-content: space-between;
+}
+
+.border-radius {
+    border-radius: 50px;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-grey1 {
+    /* background-color: #121212; */
+    background-color: hsl(0deg 0% 7.06%);
+}
+
+.bg-grey2 {
+    background-color: hsl(0deg 0% 12.16%);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.gap {
+    gap: 12px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.margin {
+    margin: 10px 0 10px 0;
+} 
+
+.txt-color {
+    color: hsl(0deg 0% 70.2%);
+    text-decoration: none;
+}
+
+.txt-color-white {
+    color: white;
+    text-decoration: none;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-end {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.font-size{
+    font-size: 16px;
+}
+.playlist {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 30px;
+    height: 6vh;
+    width: 10vw;
+}
+
+.card-width {
+    width: 11vw;
+    position: relative;
+}
+
+.card,.footer>* {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-border-radius{
+    border-radius: 100%;
+}
+
+.margin-all{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.margin-top{
+    margin-top: 20px;
+}
+
+
+
+

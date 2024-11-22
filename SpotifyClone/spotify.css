@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    height: 8vh;
+    margin: 5px 5px;
+}
+
+.search-music {
+    width: 40vw;
+    height: 9vh;
+}
+
+.searchbar {
+    width: 40vw;
+    height: 7vh;
+    margin: 5px;
+    border: none;
+    padding-left: 38px;
+    font-size: 15px;
+    background: url(images/searchMusic.svg) no-repeat left;
+    background-position: 7px;
+    filter: invert(1);
+    background-size: 25px;
+    color: black;
+    background-color: rgb(223, 224, 224);
+    /* background: url(images/browse.svg) no-repeat right;
+    background-position: right;
+    background-size: 20px; */
+}
+
+.home {
+    padding: 10px;
+    background-color: rgb(223, 224, 224);
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+.buttons {
+    padding: 5px;
+    gap: 25px;
+}
+
+.signup {
+    color: hsl(0deg 0% 70.2%);
+    background-color: black;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.login {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.container {
+    height: 76vh;
+    margin: 8px;
+    gap: 8px;
+}
+
+.leftbox {
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.library {
+    padding: 15px;
+}
+
+.library ul {
+    list-style: none;
+    gap: 17px;
+}
+
+.side-option {
+    font-size: 15px;
+    height: 47%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-color: hsl(0, 3%, 49%) hsl(0deg 0% 7.06%);
+}
+
+.createplay {
+    margin: 30px 4px 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.podcast {
+    margin: 20px 4px 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.infos {
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 10px;
+}
+
+.info-links {
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.lang-button {
+    color: black;
+    width: 7vw;
+    height: 5vh;
+    background: url(images/language.svg) no-repeat left;
+    background-position: 9px;
+    filter: invert(1);
+    border: 1px solid rgb(108, 204, 53);
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 13px;
+    background-size: 17px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.rightbox {
+    width: 75vw;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: hsl(0, 3%, 49%) hsl(0deg 0% 7.06%);
+    position: relative;
+}
+
+.popular-album h2,.popular-artist h2{
+    width: 15vw;
+}
+
+.play {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.68, -0.08, 0.33, 1.58);
+}
+
+.card:hover .play {
+    opacity: 1;
+    bottom: 80px;
+    cursor: pointer;
+}
+.signup:hover{
+    color: white;
+    background-color: black;
+    font-size: 17px;
+}
+button:hover{
+    background-color: rgb(230, 222, 222);
+}
+.underline-link,
+button,
+.card:hover {
+    cursor: pointer;
+}
+
+.underline-link:hover,
+.card h4:hover {
+    text-decoration: underline;
+}
+
+.play-button:hover {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(119, 228, 119);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button {
+    width: 43px;
+    height: 43px;
+    background-color: rgb(82, 238, 82);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-icon {
+    width: 0;
+    height: 0;
+    border-left: 14px solid black;
+    border-top: 9px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.footer {
+    height: 11vh;
+    margin: 10px 10px 0 10px;
+    background: radial-gradient(circle at -14.3% -17.5%, #ac2b98, #5199f3);
+}
+
+.suggest>p {
+    padding-top: 5px;
+}
+
+.footer-sign {
+    width: 12vw;
+    height: 8vh;
+    margin-right: 20px;
+    padding: 2px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+
