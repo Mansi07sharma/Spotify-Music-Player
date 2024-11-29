@@ -272,14 +272,6 @@ document.querySelector(".cross").addEventListener("click", () => {
 })
 
 //popup page
-document.querySelectorAll(".popup").forEach(e => {
-    e.addEventListener("click", () => {
-        console.log(e, 'clickedd!!');
-
-    })
-});
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const popup = document.querySelector(".login-popup");
     const closeBtn = document.querySelector(".cross-popup");
@@ -322,6 +314,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    //switch to login/signup
     document.querySelector(".forget-popup").addEventListener("click",(e)=>{
         if(e.target.innerHTML=="Already have an account?"){
             e.target.innerHTML="Forgot your password?";
