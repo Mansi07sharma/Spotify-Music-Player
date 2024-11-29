@@ -18,5 +18,3 @@ A lightweight web application that allows you to play locally downloaded music f
 <li>Volume Control: Adjust the volume of the music.</li>
 <li>Dynamic Playlist: Automatically lists all songs in the music/ folder.</li>
 </ul>
-
-<b>It is in working state...</b>
