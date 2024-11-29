@@ -12,6 +12,18 @@
     margin: 5px 5px;
 }
 
+.hambug ,.cross{
+    visibility: hidden;
+}
+
+.hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+  }
+
 .search-music {
     width: 40vw;
     height: 9vh;
@@ -30,9 +42,6 @@
     background-size: 25px;
     color: black;
     background-color: rgb(223, 224, 224);
-    /* background: url(images/browse.svg) no-repeat right;
-    background-position: right;
-    background-size: 20px; */
 }
 
 .home {
@@ -41,6 +50,7 @@
     width: 25px;
     height: 25px;
     margin: auto;
+    cursor: pointer;
 }
 
 .buttons {
@@ -177,6 +187,10 @@ button,
 .underline-link:hover,
 .card h4:hover {
     text-decoration: underline;
+}
+
+a:hover{
+    color:white;
 }
 
 .play-button:hover {

@@ -1,0 +1,121 @@
+@media screen and (max-width: 1300px) {
+  .leftbox {
+    position: absolute;
+    left: -100%;
+    z-index: 1;
+    background-color: black;
+    transition: ease-out 0.3s;
+    width: 35%;
+  }
+
+  .rightbox {
+    width: 100vw;
+  }
+
+  .artist-cars,
+  .album-card {
+    gap: 58px;
+  }
+
+  .hambug,
+  .cross {
+    visibility: visible;
+  }
+
+  .playlist {
+    width: auto;
+  }
+
+  .lang-button {
+    margin-top: 0;
+    width: 34%;
+  }
+
+   /* login edits */
+.upper-popup,
+.continue-popup,
+.form-popup,
+.forget-popup {
+  width: 100% !important;
+}
+
+.cross-popup {
+  top: 12% !important;
+}
+
+.h2-popup {
+  font-size: small !important;
+}
+
+}
+
+@media screen and (max-width: 630px) {
+  /* nav edits */
+  .searchbar {
+    visibility: hidden;
+  }
+
+  .buttons {
+    margin-left: -98px;
+  }
+
+  /* hide edits */
+  .leftbox {
+    width: 80%;
+  }
+
+  /* footer edits */
+  .footer-sign {
+    width: 100%;
+    margin-right: 20px;
+    padding: 1px;
+    border-radius: 50px;
+    height: 30px;
+  }
+
+  .suggest p {
+    font-size: 0;
+    visibility: hidden;
+  }
+
+  /* body edits */
+  .popular-album h2,
+  .popular-artist h2 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .artist-cars,
+  .album-card {
+    display: block;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 15px;
+  }
+
+  .card img {
+    width: 336%;
+  }
+
+  /* next page css  */
+  .name {
+    visibility: hidden;
+  }
+
+  .artist-pic {
+    margin-left: 44px;
+  }
+
+  .player {
+    height: 13vh;
+  }
+
+  .songdetail {
+    flex-direction: column;
+    align-items: center;
+  }
+}
