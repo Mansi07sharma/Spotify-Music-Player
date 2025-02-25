@@ -5,7 +5,7 @@ document.querySelector(".home").addEventListener("click", () => {
 
 //Function for getting songs
 async function getMusic(artistname) {
-    let song = await fetch(`./Songs/${artistname}/`)
+    let song = await fetch(`http://127.0.0.1:3000/SpotifyClone/Songs/${artistname}/`)
     let response = await song.text();
     // console.log(response);
 
